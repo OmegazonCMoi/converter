@@ -95,7 +95,7 @@ export default function Home() {
         </NavbarContent>
         <NavbarContent justify="end">
           <NavbarItem className="hidden lg:flex">
-            <Link href="#">Code</Link>
+            <Link href="https://github.com/OmegazonCMoi/converter">Code</Link>
           </NavbarItem>
           <NavbarItem>
             <Button as={Link} color="primary" href="https://fmenoni.com" variant="flat">
