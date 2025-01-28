@@ -74,21 +74,21 @@ export default function Home() {
       <Navbar>
         <NavbarBrand>
           <AcmeLogo />
-          <p className="font-bold text-inherit ml-4">CONVERTER</p>
+          <a href="/"><p className="ml-4 font-bold text-inherit">CONVERTER</p></a>
         </NavbarBrand>
-        <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        <NavbarContent className="hidden gap-4 sm:flex" justify="center">
           <NavbarItem isActive>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="/">
               Convertir
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="/docs">
               Tutoriel
             </Link>
           </NavbarItem>
           <NavbarItem>
-            <Link color="foreground" href="#">
+            <Link color="foreground" href="/legal">
               Mentions Légales
             </Link>
           </NavbarItem>
@@ -108,8 +108,9 @@ export default function Home() {
       <div className="max-w-xl w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[10em]">
         <h1 className="text-3xl text-center">Uploadez votre fichier</h1>
         <form onSubmit={handleSubmit}>
-          <Input type="file" className="mt-4" onChange={handleFileChange} accept=".xlsx, .xls" />
-          <Button type="submit" color="primary" className="justify-center mx-auto flex mt-4 w-40">
+          <Input type="file" className="mt-4" onChange={handleFileChange} />
+          <p className="mt-1 text-xs text-center text-neutral-500">Vous ne comprenez comment le site marche ? Regardez le <a href="/docs" className="text-blue-600">tutoriel</a></p>
+          <Button type="submit" color="primary" className="flex justify-center w-40 mx-auto mt-4">
             {loading ? "Chargement..." : "Convertir"}
           </Button>
         </form>

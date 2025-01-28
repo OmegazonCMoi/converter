@@ -33,3 +33,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# add these lines to ignore the specified files
+/package
+app/api/formatPhoneNumber/route.ts
+package-lock.json
+package.json
