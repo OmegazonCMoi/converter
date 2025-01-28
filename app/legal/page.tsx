@@ -50,11 +50,11 @@ export default function PricingPage() {
       <p>Copyright (c) 2025 Fabian Menoni</p>
 
 
-      <p>Par la présente, il est octroyé à toute personne obtenant une copie de ce logiciel et des fichiers associés (le "Logiciel"), de traiter le Logiciel sans restriction, y compris sans limitation les droits d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du Logiciel, et d'autoriser les personnes à qui le Logiciel est fourni à le faire, sous réserve des conditions suivantes :
+      <p>Par la présente, il est octroyé à toute personne obtenant une copie de ce logiciel et des fichiers associés (le &apos;Logiciel&apos;), de traiter le Logiciel sans restriction, y compris sans limitation les droits d&apos;utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre des copies du Logiciel, et d&apos;autoriser les personnes à qui le Logiciel est fourni à le faire, sous réserve des conditions suivantes :
 
         Le texte suivant doit être inclus dans toutes les copies ou parties substantielles du Logiciel.</p>
 
-      <p>LE LOGICIEL EST FOURNI "EN L'ÉTAT", SANS AUCUNE GARANTIE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S'Y LIMITER LES GARANTIES DE COMMERCIALISATION, D'ADAPTATION À UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON. EN AUCUN CAS LES AUTEURS OU TITULAIRES DU COPYRIGHT NE POURRONT ÊTRE TENUS RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS UNE ACTION EN CONTRACT, DÉLICTUELLE OU AUTRE, DÉCOULANT DE, OU EN RELATION AVEC, LE LOGICIEL OU L'UTILISATION OU AUTRES TRANSACTIONS DANS LE LOGICIEL.
+      <p>LE LOGICIEL EST FOURNI &apos;EN L&apos;ÉTAT&apos;, SANS AUCUNE GARANTIE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS S&apos;Y LIMITER LES GARANTIES DE COMMERCIALISATION, D&apos;ADAPTATION À UN USAGE PARTICULIER ET D&apos;ABSENCE DE CONTREFAÇON. EN AUCUN CAS LES AUTEURS OU TITULAIRES DU COPYRIGHT NE POURRONT ÊTRE TENUS RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRES RESPONSABILITÉS, QUE CE SOIT DANS UNE ACTION EN CONTRACT, DÉLICTUELLE OU AUTRE, DÉCOULANT DE, OU EN RELATION AVEC, LE LOGICIEL OU L&apos;UTILISATION OU AUTRES TRANSACTIONS DANS LE LOGICIEL.
       </p>
     </>
   );
