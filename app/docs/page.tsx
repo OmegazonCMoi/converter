@@ -45,7 +45,7 @@ export default function DocsPage() {
         </NavbarContent>
       </Navbar>
 
-      <video src="/videos/tuto.mov" className='mt-10 rounded-lg' autoPlay autoFocus loop controls></video>
+      <video src="/videos/tuto.mov" className='mt-10 rounded-lg' autoPlay loop controls></video>
     </>
   );
 }
